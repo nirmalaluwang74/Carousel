@@ -1,19 +1,16 @@
 
 
 .carousel {
-    width: cover;
-
+    position: relative;
 }
 
 .carousel .carousel-item-visible {
    display: block;
-
 }
 
 .carousel .carousel-item-visible img{
     width: 100%;
     position: relative;
-
 }
 
 .carousel .carousel-item img {
@@ -29,13 +26,17 @@
     top: 50%;
     width: 100%;
     box-sizing: border-box;
+    
 }
 
 .carousel-actions button {
     font-size: 25px;
+    font-weight: bold;
     background-color: aliceblue;
     border-radius: 20px; 
-    width:40px;  
-}
+    width:40px; 
+    height: 40px; 
+    margin: 25px;
 
+}
 
